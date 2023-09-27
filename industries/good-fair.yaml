@@ -45,17 +45,17 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
+- TUNG
 - FUEL
 - GOOD
 - PUBL
-- TUNG
 cargoProduction: []
 colour: 168
 fundCostMultiplier: 15
 id: 15
 layout:
 - - - 0
-name: Fair
+name: Good Fair
 placement: in-town
 probabilityInGame: 12
 probabilityMapGen: 24
@@ -65,13 +65,13 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/fair/2.png
+      filename: industries/good-fair/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/fair/1.png
+      filename: industries/good-fair/1.png
       left: -31
       top: -18
 type: tertiary
