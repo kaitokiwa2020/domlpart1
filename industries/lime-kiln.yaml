@@ -20,8 +20,9 @@ callbacks: |
   }
 
   accept_cargo_types ctt:LIME [] 8 =
-  prod_cargo_types ctt:QLME [] 6 =
-  prod_cargo_types ctt:FMSP [] 2 =
+  prod_cargo_types ctt:CMNT [] 5 =
+  prod_cargo_types ctt:NaOH [] 1 =
+  prod_cargo_types ctt:FERT [] 2 =
 
 
   /*
@@ -97,8 +98,8 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- FUEL
 - STON
+- FUEL
 cargoProduction:
 - NaOH
 - CMNT
