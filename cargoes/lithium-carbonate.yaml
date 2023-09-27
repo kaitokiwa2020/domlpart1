@@ -1,0 +1,17 @@
+abbreviation: LI
+available: false
+classes: 16
+colour: 156
+id: 62
+label: LICO
+longName: lithium carbonate
+name: Lithium Carbonate
+penaltyLength: 215
+penaltyLowerBound: 40
+price: 4194
+sprite:
+  filename: cargoes/lithium-carbonate.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

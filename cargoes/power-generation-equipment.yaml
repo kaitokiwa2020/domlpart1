@@ -1,0 +1,17 @@
+abbreviation: PE
+available: false
+classes: 1056
+colour: 230
+id: 76
+label: PGEQ
+longName: power generation equipment
+name: Power Generation Equipment
+penaltyLength: 191
+penaltyLowerBound: 64
+price: 8224
+sprite:
+  filename: cargoes/power-generation-equipment.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

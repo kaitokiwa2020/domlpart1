@@ -1,0 +1,17 @@
+abbreviation: CE
+available: true
+classes: 528
+colour: 189
+id: 10
+label: CMNT
+longName: building materials
+name: Building Materials
+penaltyLength: 223
+penaltyLowerBound: 32
+price: 4523
+sprite:
+  filename: cargoes/building-materials.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

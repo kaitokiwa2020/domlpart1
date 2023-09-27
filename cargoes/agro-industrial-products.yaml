@@ -1,0 +1,17 @@
+abbreviation: RB
+available: true
+classes: 544
+colour: 63
+id: 34
+label: AGID
+longName: agro industrial products
+name: Agro industrial products
+penaltyLength: 52
+penaltyLowerBound: 20
+price: 4523
+sprite:
+  filename: cargoes/agro-industrial-products.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

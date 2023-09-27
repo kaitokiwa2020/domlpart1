@@ -1,0 +1,17 @@
+abbreviation: AP
+available: false
+classes: 16
+colour: 143
+id: 57
+label: APAT
+longName: apatite
+name: Apatite
+penaltyLength: 225
+penaltyLowerBound: 30
+price: 3824
+sprite:
+  filename: cargoes/apatite.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

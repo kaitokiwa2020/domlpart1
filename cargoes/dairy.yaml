@@ -1,0 +1,17 @@
+abbreviation: '05'
+available: false
+classes: 160
+colour: 15
+id: 26
+label: MILK
+longName: dairy
+name: Dairy
+penaltyLength: 235
+penaltyLowerBound: 20
+price: 4976
+sprite:
+  filename: cargoes/dairy.png
+  left: 0
+  top: 0
+unitName: Litres
+weight: 16

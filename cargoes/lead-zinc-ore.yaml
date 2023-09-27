@@ -1,0 +1,17 @@
+abbreviation: LO
+available: false
+classes: 16
+colour: 1
+id: 58
+label: LEOR
+longName: lead-zinc ore
+name: Lead-Zinc Ore
+penaltyLength: 215
+penaltyLowerBound: 40
+price: 4112
+sprite:
+  filename: cargoes/lead-zinc-ore.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

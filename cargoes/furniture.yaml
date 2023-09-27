@@ -1,0 +1,17 @@
+abbreviation: '10'
+available: false
+classes: 544
+colour: 59
+id: 54
+label: FRNT
+longName: furniture
+name: Furniture
+penaltyLength: 52
+penaltyLowerBound: 20
+price: 5551
+sprite:
+  filename: cargoes/furniture.png
+  left: 0
+  top: 0
+unitName: Items
+weight: 16

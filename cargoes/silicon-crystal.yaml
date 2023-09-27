@@ -1,0 +1,17 @@
+abbreviation: SI
+available: false
+classes: 544
+colour: 234
+id: 70
+label: SICR
+longName: silicon crystal
+name: Silicon Crystal
+penaltyLength: 255
+penaltyLowerBound: 0
+price: 5181
+sprite:
+  filename: cargoes/silicon-crystal.png
+  left: 0
+  top: 0
+unitName: Items
+weight: 16

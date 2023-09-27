@@ -1,0 +1,17 @@
+abbreviation: '23'
+available: false
+classes: 544
+colour: 62
+id: 60
+label: WOOD
+longName: wood
+name: Wood
+penaltyLength: 72
+penaltyLowerBound: 8
+price: 3989
+sprite:
+  filename: cargoes/wood.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

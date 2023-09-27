@@ -1,0 +1,17 @@
+abbreviation: BA
+available: true
+classes: 544
+colour: 235
+id: 17
+label: BATT
+longName: battery cells
+name: Battery Cells
+penaltyLength: 44
+penaltyLowerBound: 22
+price: 6085
+sprite:
+  filename: cargoes/battery-cells.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

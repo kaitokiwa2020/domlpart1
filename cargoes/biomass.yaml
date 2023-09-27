@@ -1,0 +1,17 @@
+abbreviation: BM
+available: false
+classes: 4880
+colour: 62
+id: 65
+label: BIOM
+longName: biomass
+name: Biomass
+penaltyLength: 60
+penaltyLowerBound: 12
+price: 3948
+sprite:
+  filename: cargoes/biomass.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

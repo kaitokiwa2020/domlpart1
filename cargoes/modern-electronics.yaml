@@ -1,0 +1,17 @@
+abbreviation: 3C
+available: false
+classes: 544
+colour: 15
+id: 78
+label: MODE
+longName: modern electronics
+name: Modern Electronics
+penaltyLength: 56
+penaltyLowerBound: 24
+price: 6991
+sprite:
+  filename: cargoes/modern-electronics.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

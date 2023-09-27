@@ -1,0 +1,17 @@
+abbreviation: VG
+available: false
+classes: 160
+colour: 209
+id: 20
+label: VEGE
+longName: fruit & vegetables
+name: Fruit & Vegetables
+penaltyLength: 22
+penaltyLowerBound: 0
+price: 5757
+sprite:
+  filename: cargoes/fruit-vegetables.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 6

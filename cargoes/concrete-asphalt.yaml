@@ -1,0 +1,17 @@
+abbreviation: CA
+available: false
+classes: 64
+colour: 1
+id: 7
+label: ASPH
+longName: concrete & asphalt
+name: Concrete & Asphalt
+penaltyLength: 40
+penaltyLowerBound: 0
+price: 4523
+sprite:
+  filename: cargoes/concrete-asphalt.png
+  left: 0
+  top: 0
+unitName: Litres
+weight: 24
