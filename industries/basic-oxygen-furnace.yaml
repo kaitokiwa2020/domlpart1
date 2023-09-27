@@ -19,13 +19,12 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:IRON [] 4 =
-  accept_cargo_types ctt:MNO2 [] 2 =
-  accept_cargo_types ctt:QLME [] 1 =
-  accept_cargo_types ctt:O2__ [] 1 =
-  prod_cargo_types ctt:STCB [] 4 =
-  prod_cargo_types ctt:STAL [] 2 =
-  prod_cargo_types ctt:SLAG [] 2 =
+  accept_cargo_types ctt:NaOH [] 2 =
+  accept_cargo_types ctt:CSTI [] 4 =
+  accept_cargo_types ctt:FUEL [] 2 =
+  prod_cargo_types ctt:SLAG [] 3 =
+  prod_cargo_types ctt:STEE [] 3 =
+  prod_cargo_types ctt:ALLY [] 2 =
 
 
   /*
@@ -100,9 +99,14 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance: []
+cargoAcceptance:
+- NaOH
+- CSTI
+- FUEL
 cargoProduction:
+- ALLY
 - SLAG
+- STEE
 colour: 49
 fundCostMultiplier: 160
 id: 1

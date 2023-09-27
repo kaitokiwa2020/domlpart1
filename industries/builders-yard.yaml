@@ -10,11 +10,8 @@ callbacks: |
 
   accept_cargo_types ctt:CMNT [] 1 =
   accept_cargo_types ctt:PIPE [] 1 =
-  accept_cargo_types ctt:STSE [] 1 =
-  accept_cargo_types ctt:STWR [] 1 =
-  accept_cargo_types ctt:SAND [] 1 =
-  accept_cargo_types ctt:LIME [] 1 =
-  accept_cargo_types ctt:GLAS [] 1 =
+  accept_cargo_types ctt:FNRT [] 1 =
+  accept_cargo_types ctt:STON [] 1 =
 
 
   /*
@@ -48,13 +45,10 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- GLAS
 - CMNT
-- LIME
+- FRNT
 - PIPE
-- SAND
-- STSE
-- STWR
+- STON
 cargoProduction: []
 colour: 169
 fundCostMultiplier: 16
@@ -80,7 +74,7 @@ name: Builders Yard
 placement: anywhere
 probabilityInGame: 6
 probabilityMapGen: 9
-prospectChance: 75
+prospectChance: 0
 tiles:
 - sprites:
   - alwaysDraw: true

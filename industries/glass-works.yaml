@@ -98,9 +98,7 @@ callbacks: |
   }
 cargoAcceptance:
 - SAND
-- SASH
-cargoProduction:
-- GLAS
+cargoProduction: []
 colour: 151
 fundCostMultiplier: 95
 id: 16

@@ -22,7 +22,7 @@ callbacks: |
   accept_cargo_types ctt:SALT [] 8 =
   prod_cargo_types ctt:ACID [] 4 =
   prod_cargo_types ctt:CHLO [] 2 =
-  prod_cargo_types ctt:LYE_ [] 2 =
+  prod_cargo_types ctt:FUEL [] 2 =
 
 
   /*
@@ -102,7 +102,7 @@ cargoAcceptance:
 cargoProduction:
 - ACID
 - CHLO
-- LYE_
+- FUEL
 colour: 191
 fundCostMultiplier: 170
 id: 7

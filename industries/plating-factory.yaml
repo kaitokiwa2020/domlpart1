@@ -19,10 +19,14 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:STSH [] 4 =
-  accept_cargo_types ctt:COAT [] 2 =
-  accept_cargo_types ctt:GLAS [] 2 =
-  prod_cargo_types ctt:VBOD [] 8 =
+  accept_cargo_types ctt:ACID [] 2 =
+  accept_cargo_types ctt:ALUM [] 2 =
+  accept_cargo_types ctt:CU__ [] 1 =
+  accept_cargo_types ctt:LEAD [] 1 =
+  accept_cargo_types ctt:STEE [] 2 =
+  prod_cargo_types ctt:ALLY [] 3 =
+  prod_cargo_types ctt:PIPE [] 2 =
+  prod_cargo_types ctt:VPTS [] 3 =
 
 
   /*
@@ -98,11 +102,15 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- STSH
-- COAT
-- GLAS
+- ACID
+- ALUM
+- CU__
+- STEE
+- LEAD
 cargoProduction:
-- VBOD
+- ALLY
+- PIPE
+- VPTS
 colour: 194
 fundCostMultiplier: 120
 id: 3
@@ -125,7 +133,7 @@ layout:
   - - 3
     - 4
     - 5
-name: Body Plant
+name: Plating Factory
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 5
@@ -135,78 +143,78 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/body-plant/2.png
+      filename: industries/plating-factory/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/body-plant/1.png
+      filename: industries/plating-factory/1.png
       left: -31
       top: -35
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/body-plant/4.png
+      filename: industries/plating-factory/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/body-plant/3.png
+      filename: industries/plating-factory/3.png
       left: -31
       top: -35
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/body-plant/6.png
+      filename: industries/plating-factory/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/body-plant/5.png
+      filename: industries/plating-factory/5.png
       left: -31
       top: -20
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/body-plant/8.png
+      filename: industries/plating-factory/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/body-plant/7.png
+      filename: industries/plating-factory/7.png
       left: -31
       top: -23
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/body-plant/10.png
+      filename: industries/plating-factory/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/body-plant/9.png
+      filename: industries/plating-factory/9.png
       left: -31
       top: -20
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/body-plant/12.png
+      filename: industries/plating-factory/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/body-plant/11.png
+      filename: industries/plating-factory/11.png
       left: -31
       top: 0
 type: secondary
