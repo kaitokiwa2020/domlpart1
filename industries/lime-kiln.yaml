@@ -19,7 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:LIME [] 8 =
+  accept_cargo_types ctt:FUEL [] 8 =
+  accept_cargo_types ctt:STON [] 8 =
   prod_cargo_types ctt:CMNT [] 5 =
   prod_cargo_types ctt:NaOH [] 1 =
   prod_cargo_types ctt:FERT [] 2 =
@@ -98,11 +99,11 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- STON
 - FUEL
+- STON
 cargoProduction:
-- NaOH
 - CMNT
+- NaOH
 - FERT
 colour: 119
 fundCostMultiplier: 45
