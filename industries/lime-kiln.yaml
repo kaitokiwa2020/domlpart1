@@ -102,8 +102,8 @@ cargoAcceptance:
 - FUEL
 - STON
 cargoProduction:
-- CMNT
 - NaOH
+- CMNT
 - FERT
 colour: 119
 fundCostMultiplier: 45

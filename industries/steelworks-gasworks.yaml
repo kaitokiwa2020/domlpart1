@@ -102,15 +102,15 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- SCMT
 - COAL
 - IORE
+- SCMT
 - STON
 cargoProduction:
+- CSTI
 - FUEL
 - SLAG
 - STEE
-- CSTI
 colour: 186
 fundCostMultiplier: 160
 id: 12

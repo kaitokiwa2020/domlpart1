@@ -191,7 +191,7 @@ layout:
     - 4
     - -1
 name: Seafood
-placement: on-water
+placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 7
 prospectChance: 75

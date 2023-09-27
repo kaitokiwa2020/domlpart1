@@ -1,4 +1,4 @@
-available: true
+available: false
 callbacks: |
   const type{
       accept_cargo_types cargodict
@@ -19,12 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:STCB [] 4 =
-  accept_cargo_types ctt:ACID [] 2 =
-  accept_cargo_types ctt:SOAP [] 2 =
-  prod_cargo_types ctt:STSE [] 4 =
-  prod_cargo_types ctt:STWR [] 3 =
-  prod_cargo_types ctt:ENSP [] 1 =
+  accept_cargo_types ctt:ACID [] 8 =
+  prod_cargo_types ctt:ENSP [] 8 =
 
 
   /*
@@ -101,12 +97,8 @@ callbacks: |
   }
 cargoAcceptance:
 - ACID
-- STCB
-- SOAP
 cargoProduction:
 - ENSP
-- STSE
-- STWR
 colour: 43
 fundCostMultiplier: 120
 id: 30
@@ -159,7 +151,7 @@ layout:
     - 4
     - 8
     - 7
-name: Wire and Section Mill
+name: Paper
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 5
@@ -169,130 +161,130 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/2.png
+      filename: industries/paper/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/1.png
+      filename: industries/paper/1.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/4.png
+      filename: industries/paper/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/3.png
+      filename: industries/paper/3.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/6.png
+      filename: industries/paper/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/5.png
+      filename: industries/paper/5.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/8.png
+      filename: industries/paper/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/7.png
+      filename: industries/paper/7.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/10.png
+      filename: industries/paper/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/9.png
+      filename: industries/paper/9.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/12.png
+      filename: industries/paper/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/11.png
+      filename: industries/paper/11.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/14.png
+      filename: industries/paper/14.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/13.png
+      filename: industries/paper/13.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/16.png
+      filename: industries/paper/16.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/15.png
+      filename: industries/paper/15.png
       left: -31
       top: 0
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/18.png
+      filename: industries/paper/18.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/17.png
+      filename: industries/paper/17.png
       left: -31
       top: 0
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/20.png
+      filename: industries/paper/20.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/wire-and-section-mill/19.png
+      filename: industries/paper/19.png
       left: -31
       top: -21
 type: secondary
