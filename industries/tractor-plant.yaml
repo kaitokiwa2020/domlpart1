@@ -1,5 +1,5 @@
 available: true
-callbacks: |
+callbacks: |+
   const type{
       accept_cargo_types cargodict
       prod_cargo_types cargodict
@@ -20,12 +20,12 @@ callbacks: |
   }
 
   accept_cargo_types ctt:VPTS [] 2 =
-  accept_cargo_types ctt:VBOD [] 2 =
-  accept_cargo_types ctt:VENG [] 2 =
-  accept_cargo_types ctt:TYRE [] 2 =
-  prod_cargo_types ctt:VEHI [] 6 =
-  prod_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:FMSP [] 1 =
+  accept_cargo_types ctt:ALLY [] 2 =
+  accept_cargo_types ctt:PAIN [] 2 =
+  accept_cargo_types ctt:STEE [] 2 =
+  prod_cargo_types ctt:ENSP [] 4 =
+  prod_cargo_types ctt:FMSP [] 4 =
+
 
 
   /*
@@ -36,7 +36,7 @@ callbacks: |
   cb:production_cargo_arrival def{
       cargo accept_cargo_types loop{
           supplied_cycles_remaining_cargo cargo []
-              28
+  28
               supplied_cycles_remaining_cargo cargo []
           industry:cargo_incoming_waiting cargo [] 0 >
           =
@@ -44,7 +44,7 @@ callbacks: |
           current_production_ratio
               current_production_ratio
                   accept_cargo_types cargo []
-                  0
+  0
               supplied_cycles_remaining_cargo cargo [] 0 >
               +
           =
@@ -74,7 +74,7 @@ callbacks: |
       */
       total_cargo_to_distribute_this_cycle
           total_produced_cargo_available
-          0
+  0
           total_produced_cargo_available 8 >=
       =
       total_produced_cargo_available total_produced_cargo_available total_cargo_to_distribute_this_cycle - =
@@ -100,15 +100,15 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
+
 cargoAcceptance:
-- TYRE
-- VBOD
-- VENG
 - VPTS
+- ALLY
+- PAIN
+- STEE
 cargoProduction:
 - ENSP
 - FMSP
-- VEHI
 colour: 141
 fundCostMultiplier: 145
 id: 0
@@ -138,7 +138,7 @@ layout:
     - 7
     - 8
     - 9
-name: Assembly Plant
+name: Tractor Plant
 placement: anywhere
 probabilityInGame: 1
 probabilityMapGen: 5
@@ -148,130 +148,130 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/2.png
+      filename: industries/tractor-plant/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/1.png
+      filename: industries/tractor-plant/1.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/4.png
+      filename: industries/tractor-plant/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/3.png
+      filename: industries/tractor-plant/3.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/6.png
+      filename: industries/tractor-plant/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/5.png
+      filename: industries/tractor-plant/5.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/8.png
+      filename: industries/tractor-plant/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/7.png
+      filename: industries/tractor-plant/7.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/10.png
+      filename: industries/tractor-plant/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/9.png
+      filename: industries/tractor-plant/9.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/12.png
+      filename: industries/tractor-plant/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/11.png
+      filename: industries/tractor-plant/11.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/14.png
+      filename: industries/tractor-plant/14.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/13.png
+      filename: industries/tractor-plant/13.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/16.png
+      filename: industries/tractor-plant/16.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/15.png
+      filename: industries/tractor-plant/15.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/18.png
+      filename: industries/tractor-plant/18.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/17.png
+      filename: industries/tractor-plant/17.png
       left: -31
       top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/20.png
+      filename: industries/tractor-plant/20.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/assembly-plant/19.png
+      filename: industries/tractor-plant/19.png
       left: -31
       top: -49
 type: secondary

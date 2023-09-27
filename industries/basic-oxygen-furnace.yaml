@@ -100,14 +100,8 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance:
-- IRON
-- MNO2
-- QLME
-- O2__
+cargoAcceptance: []
 cargoProduction:
-- STCB
-- STAL
 - SLAG
 colour: 49
 fundCostMultiplier: 160
