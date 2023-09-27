@@ -42,15 +42,10 @@ callbacks: |
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:STSE [] 1 =
   accept_cargo_types ctt:PIPE [] 1 =
   accept_cargo_types ctt:CMNT [] 1 =
-  accept_cargo_types ctt:LYE_ [] 1 =
-  prod_cargo_types ctt:ENSP [] 12 =
-  prod_cargo_types ctt:ZINC [] 16 =
-  prod_cargo_types ctt:POWR [] 14 =
-  prod_cargo_types ctt:COAT [] 10 =
-  prod_cargo_types ctt:SOAP [] 10 =
+  prod_cargo_types ctt:ENSP [] 16 =
+  prod_cargo_types ctt:FMSP [] 16 =
 
 
   /*
@@ -155,7 +150,7 @@ cargoAcceptance:
 - PIPE
 cargoProduction:
 - ENSP
-- POWR
+- FMSP
 colour: 37
 fundCostMultiplier: 152
 id: 29

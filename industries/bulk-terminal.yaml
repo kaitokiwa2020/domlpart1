@@ -148,8 +148,8 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- FOOD
 - GOOD
+- FOOD
 cargoProduction:
 - COAL
 - COPO

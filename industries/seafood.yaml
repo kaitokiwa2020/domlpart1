@@ -42,8 +42,7 @@ callbacks: |
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:FMSP [] 1 =
-  prod_cargo_types ctt:FOOD [] 14 =
+  prod_cargo_types ctt:MEAT [] 14 =
 
 
   /*
@@ -143,146 +142,149 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance:
-- FMSP
+cargoAcceptance: []
 cargoProduction:
-- FOOD
-colour: 85
-fundCostMultiplier: 49
-id: 14
+- MEAT
+colour: 189
+fundCostMultiplier: 45
+id: 11
 layout:
-- - - -1
-    - 1
-    - 0
-    - -1
-  - - -1
-    - -1
-    - -1
-    - -1
-  - - 7
-    - -1
-    - 4
-    - 5
-  - - 2
-    - -1
-    - 6
-    - 3
-- - - 3
-    - 4
-    - 7
-  - - -1
-    - -1
+- - - 1
     - 2
-  - - 6
-    - -1
-    - 1
-  - - 5
+    - 3
+    - 4
+  - - 3
     - 0
-    - -1
-- - - 7
-    - 1
     - 6
+    - 5
+- - - 4
+    - 1
+    - 2
+    - 3
+  - - 5
+    - 6
+    - 0
+    - 3
+- - - 1
+    - 2
+  - - 3
+    - 0
+  - - 3
+    - 6
+  - - 5
+    - 4
+- - - 5
+    - 4
+  - - 1
+    - 6
+  - - 2
     - 3
   - - 0
-    - -1
-    - -1
-    - -1
-  - - 4
+    - 3
+- - - 1
     - 2
+    - 3
+  - - 6
+    - 0
+    - 3
+  - - 5
+    - 4
     - -1
-    - 5
-name: Farm
-placement: anywhere
-probabilityInGame: 3
-probabilityMapGen: 15
+name: Seafood
+placement: on-water
+probabilityInGame: 4
+probabilityMapGen: 7
 prospectChance: 75
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3981
+      filename: industries/seafood/2.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/1.png
+      filename: industries/seafood/1.png
       left: -31
-      top: -21
+      top: -73
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3981
+      filename: industries/seafood/4.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/2.png
+      filename: industries/seafood/3.png
       left: -31
-      top: -21
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3924
+      filename: industries/seafood/6.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/3.png
+      filename: industries/seafood/5.png
       left: -31
-      top: -21
+      top: -52
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3981
+      filename: industries/seafood/8.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/4.png
+      filename: industries/seafood/7.png
       left: -31
-      top: -21
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3981
+      filename: industries/seafood/10.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/5.png
+      filename: industries/seafood/9.png
       left: -31
-      top: -21
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3981
+      filename: industries/seafood/12.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/6.png
+      filename: industries/seafood/11.png
       left: -31
-      top: -21
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3981
+      filename: industries/seafood/14.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/7.png
+      filename: industries/seafood/13.png
       left: -31
-      top: -21
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 3981
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/farm/8.png
-      left: -31
-      top: -21
+      top: -32
 type: primary

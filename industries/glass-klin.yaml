@@ -19,10 +19,14 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:COAL [] 8 =
-  prod_cargo_types ctt:COKE [] 6 =
-  prod_cargo_types ctt:CTAR [] 1 =
-  prod_cargo_types ctt:SULP [] 1 =
+  accept_cargo_types ctt:FUEL [] 2 =
+  accept_cargo_types ctt:KAOL [] 2 =
+  accept_cargo_types ctt:SALT [] 1 =
+  accept_cargo_types ctt:SAND [] 3 =
+  prod_cargo_types ctt:CMNT [] 2 =
+  prod_cargo_types ctt:FRNT [] 2 =
+  prod_cargo_types ctt:GOOD [] 2 =
+  prod_cargo_types ctt:PACK [] 2 =
 
 
   /*
@@ -98,11 +102,15 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- COAL
+- FUEL
+- KAOL
+- SALT
+- SAND
 cargoProduction:
-- CTAR
-- COKE
-- SULP
+- CMNT
+- FRNT
+- GOOD
+- PACK
 colour: 183
 fundCostMultiplier: 120
 id: 9
@@ -196,7 +204,7 @@ layout:
   - - 7
     - 5
     - 4
-name: Coke Oven
+name: Glass Klin
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 5
@@ -206,130 +214,130 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/2.png
+      filename: industries/glass-klin/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/1.png
+      filename: industries/glass-klin/1.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/4.png
+      filename: industries/glass-klin/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/3.png
+      filename: industries/glass-klin/3.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/6.png
+      filename: industries/glass-klin/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/5.png
+      filename: industries/glass-klin/5.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/8.png
+      filename: industries/glass-klin/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/7.png
+      filename: industries/glass-klin/7.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/10.png
+      filename: industries/glass-klin/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/9.png
+      filename: industries/glass-klin/9.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/12.png
+      filename: industries/glass-klin/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/11.png
+      filename: industries/glass-klin/11.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/14.png
+      filename: industries/glass-klin/14.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/13.png
+      filename: industries/glass-klin/13.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/16.png
+      filename: industries/glass-klin/16.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/15.png
+      filename: industries/glass-klin/15.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/18.png
+      filename: industries/glass-klin/18.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/17.png
+      filename: industries/glass-klin/17.png
       left: -31
       top: -91
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/20.png
+      filename: industries/glass-klin/20.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/coke-oven/19.png
+      filename: industries/glass-klin/19.png
       left: -31
       top: -91
 type: secondary

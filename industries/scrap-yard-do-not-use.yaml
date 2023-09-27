@@ -1,4 +1,4 @@
-available: true
+available: false
 callbacks: |
   const type{
       level_requirements dict
@@ -42,7 +42,7 @@ callbacks: |
 
   supply_requirement 8 =
 
-  prod_cargo_types ctt:O2__ [] 14 =
+  prod_cargo_types ctt:SCMT [] 32 =
 
 
   /*
@@ -144,147 +144,158 @@ callbacks: |
   }
 cargoAcceptance: []
 cargoProduction:
-- O2__
-colour: 189
-fundCostMultiplier: 45
-id: 11
+- SCMT
+colour: 64
+fundCostMultiplier: 101
+id: 18
 layout:
-- - - 1
-    - 2
-    - 3
+- - - -1
+    - -1
+    - -1
+    - -1
     - 4
-  - - 3
+  - - -1
+    - 1
     - 0
+    - 3
+    - 2
+  - - 1
+    - 8
+    - 7
     - 6
     - 5
-- - - 4
-    - 1
-    - 2
-    - 3
-  - - 5
-    - 6
-    - 0
-    - 3
-- - - 1
-    - 2
-  - - 3
-    - 0
-  - - 3
-    - 6
-  - - 5
+- - - -1
+    - -1
     - 4
-- - - 5
-    - 4
-  - - 1
-    - 6
-  - - 2
-    - 3
-  - - 0
-    - 3
-- - - 1
-    - 2
-    - 3
   - - 6
     - 0
-    - 3
-  - - 5
-    - 4
+    - 2
+  - - -1
+    - 7
+    - 5
+- - - -1
     - -1
-name: Cryo Plant
+    - -1
+    - -1
+    - 4
+  - - -1
+    - 1
+    - 0
+    - 3
+    - 2
+  - - -1
+    - -1
+    - -1
+    - -1
+    - -1
+  - - 1
+    - 8
+    - 7
+    - 6
+    - 5
+name: Scrap Yard Do Not Use
 placement: anywhere
-probabilityInGame: 4
-probabilityMapGen: 7
+probabilityInGame: 3
+probabilityMapGen: 14
 prospectChance: 75
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/2.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/1.png
+      filename: industries/scrap-yard-do-not-use/1.png
       left: -31
-      top: -73
+      top: -24
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/4.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/3.png
+      filename: industries/scrap-yard-do-not-use/2.png
       left: -31
-      top: -32
+      top: -24
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/6.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/5.png
+      filename: industries/scrap-yard-do-not-use/3.png
       left: -31
-      top: -52
+      top: -24
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/8.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/7.png
+      filename: industries/scrap-yard-do-not-use/4.png
       left: -31
-      top: -32
+      top: -24
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/10.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/9.png
+      filename: industries/scrap-yard-do-not-use/5.png
       left: -31
-      top: -32
+      top: -24
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/12.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/11.png
+      filename: industries/scrap-yard-do-not-use/6.png
       left: -31
-      top: -32
+      top: -24
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/14.png
-      left: -31
-      top: 0
+      id: 2022
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cryo-plant/13.png
+      filename: industries/scrap-yard-do-not-use/7.png
       left: -31
-      top: -32
+      top: -24
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 2022
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/scrap-yard-do-not-use/8.png
+      left: -31
+      top: -24
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 2022
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/scrap-yard-do-not-use/9.png
+      left: -31
+      top: -24
 type: primary

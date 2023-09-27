@@ -98,11 +98,12 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- ALUM
+- ALLY
 - CSTI
+- CU__
 - SAND
 cargoProduction:
-- VENG
+- POWR
 colour: 45
 fundCostMultiplier: 120
 id: 13

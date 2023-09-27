@@ -42,7 +42,9 @@ callbacks: |
 
   supply_requirement 8 =
 
-  prod_cargo_types ctt:SCMT [] 32 =
+  accept_cargo_types ctt:FMSP [] 1 =
+  prod_cargo_types ctt:FOOD [] 14 =
+  prod_cargo_types ctt:BIOM [] 6 =
 
 
   /*
@@ -142,160 +144,147 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance: []
+cargoAcceptance:
+- FMSP
 cargoProduction:
-- SCMT
-colour: 64
-fundCostMultiplier: 101
-id: 18
+- BIOM
+- GRAI
+colour: 85
+fundCostMultiplier: 49
+id: 14
 layout:
 - - - -1
-    - -1
-    - -1
-    - -1
-    - 4
-  - - -1
     - 1
     - 0
-    - 3
-    - 2
-  - - 1
-    - 8
-    - 7
-    - 6
-    - 5
-- - - -1
+    - -1
+  - - -1
+    - -1
+    - -1
+    - -1
+  - - 7
     - -1
     - 4
+    - 5
+  - - 2
+    - -1
+    - 6
+    - 3
+- - - 3
+    - 4
+    - 7
+  - - -1
+    - -1
+    - 2
   - - 6
-    - 0
-    - 2
-  - - -1
-    - 7
-    - 5
-- - - -1
     - -1
-    - -1
-    - -1
-    - 4
-  - - -1
     - 1
+  - - 5
     - 0
-    - 3
-    - 2
-  - - -1
     - -1
-    - -1
-    - -1
-    - -1
-  - - 1
-    - 8
-    - 7
+- - - 7
+    - 1
     - 6
+    - 3
+  - - 0
+    - -1
+    - -1
+    - -1
+  - - 4
+    - 2
+    - -1
     - 5
-name: Scrap Yard
+name: Grain Farm
 placement: anywhere
 probabilityInGame: 3
-probabilityMapGen: 14
+probabilityMapGen: 15
 prospectChance: 75
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/1.png
+      filename: industries/grain-farm/1.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/2.png
+      filename: industries/grain-farm/2.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3924
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/3.png
+      filename: industries/grain-farm/3.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/4.png
+      filename: industries/grain-farm/4.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/5.png
+      filename: industries/grain-farm/5.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/6.png
+      filename: industries/grain-farm/6.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/7.png
+      filename: industries/grain-farm/7.png
       left: -31
-      top: -24
+      top: -21
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3981
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/8.png
+      filename: industries/grain-farm/8.png
       left: -31
-      top: -24
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/scrap-yard/9.png
-      left: -31
-      top: -24
+      top: -21
 type: primary

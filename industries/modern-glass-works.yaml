@@ -19,13 +19,14 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SCMT [] 4 =
-  accept_cargo_types ctt:FECR [] 2 =
-  accept_cargo_types ctt:QLME [] 1 =
-  accept_cargo_types ctt:O2__ [] 1 =
-  prod_cargo_types ctt:STCB [] 4 =
-  prod_cargo_types ctt:STST [] 2 =
-  prod_cargo_types ctt:SLAG [] 2 =
+  accept_cargo_types ctt:COAL [] 2 =
+  accept_cargo_types ctt:SALT [] 1 =
+  accept_cargo_types ctt:SAND [] 4 =
+  accept_cargo_types ctt:NaOH [] 1 =
+  prod_cargo_types ctt:CMNT [] 2 =
+  prod_cargo_types ctt:FRNT [] 2 =
+  prod_cargo_types ctt:GOOD [] 2 =
+  prod_cargo_types ctt:VPTS [] 2 =
 
 
   /*
@@ -101,43 +102,68 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- FECR
-- O2__
-- QLME
-- SCMT
+- NaOH
+- COAL
+- SALT
+- SAND
 cargoProduction:
-- STCB
-- SLAG
-- STST
-colour: 186
-fundCostMultiplier: 160
-id: 12
+- CMNT
+- FRNT
+- GOOD
+- VPTS
+colour: 151
+fundCostMultiplier: 95
+id: 16
 layout:
-- - - 1
+- - - 3
     - 0
-    - 8
-    - 8
-  - - 1
+    - 3
     - 0
-    - 8
-    - 8
-  - - 1
+  - - 2
+    - 1
+    - 2
+    - 1
+  - - 3
     - 0
-    - 7
-    - 6
-  - - 1
+    - 3
+    - 0
+  - - 2
+    - 1
+    - 2
+    - 1
+- - - 3
+    - 0
+    - 3
+    - 0
+  - - 2
+    - 1
+    - 2
+    - 1
+  - - -1
+    - 3
+    - 0
+    - -1
+  - - -1
+    - 2
+    - 1
+    - -1
+- - - 3
     - 0
     - -1
     - -1
   - - 2
+    - 1
     - 3
-    - 5
-    - 4
+    - 0
+  - - 3
+    - 0
+    - 2
+    - 1
   - - 2
-    - 3
-    - 3
-    - 5
-name: Electric Arc Furnace
+    - 1
+    - -1
+    - -1
+name: Modern Glass Works
 placement: anywhere
 probabilityInGame: 1
 probabilityMapGen: 5
@@ -147,117 +173,52 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/2.png
+      filename: industries/modern-glass-works/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/1.png
+      filename: industries/modern-glass-works/1.png
       left: -31
-      top: -45
+      top: -59
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/4.png
+      filename: industries/modern-glass-works/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/3.png
+      filename: industries/modern-glass-works/3.png
       left: -31
-      top: -45
+      top: -71
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/6.png
+      filename: industries/modern-glass-works/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/5.png
+      filename: industries/modern-glass-works/5.png
       left: -31
-      top: -32
+      top: -59
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/8.png
+      filename: industries/modern-glass-works/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/7.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/10.png
+      filename: industries/modern-glass-works/7.png
       left: -31
       top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/9.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/12.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/11.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/14.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/13.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/16.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/15.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/18.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/17.png
-      left: -31
-      top: -32
 type: secondary

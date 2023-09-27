@@ -21,8 +21,9 @@ callbacks: |+
 
   accept_cargo_types ctt:VPTS [] 2 =
   accept_cargo_types ctt:ALLY [] 2 =
-  accept_cargo_types ctt:PAIN [] 2 =
-  accept_cargo_types ctt:STEE [] 2 =
+  accept_cargo_types ctt:PAIN [] 1 =
+  accept_cargo_types ctt:STEE [] 1 =
+  accept_cargo_types ctt:POWR [] 2 =
   prod_cargo_types ctt:ENSP [] 4 =
   prod_cargo_types ctt:FMSP [] 4 =
 
@@ -102,10 +103,11 @@ callbacks: |+
   }
 
 cargoAcceptance:
-- VPTS
 - ALLY
 - PAIN
 - STEE
+- VPTS
+- POWR
 cargoProduction:
 - ENSP
 - FMSP
