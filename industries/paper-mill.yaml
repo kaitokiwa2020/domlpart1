@@ -19,12 +19,12 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:STCB [] 4 =
-  accept_cargo_types ctt:ZINC [] 2 =
-  accept_cargo_types ctt:ACID [] 2 =
-  prod_cargo_types ctt:STSH [] 4 =
-  prod_cargo_types ctt:PIPE [] 3 =
-  prod_cargo_types ctt:ENSP [] 1 =
+  accept_cargo_types ctt:NaOH [] 2 =
+  accept_cargo_types ctt:KAOL [] 2 =
+  accept_cargo_types ctt:WOOD [] 4 =
+  prod_cargo_types ctt:GOOD [] 2 =
+  prod_cargo_types ctt:PACK [] 3 =
+  prod_cargo_types ctt:PAPE [] 3 =
 
 
   /*
@@ -100,13 +100,13 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- ACID
-- STCB
-- ZINC
+- NaOH
+- KAOL
+- WOOD
 cargoProduction:
-- ENSP
-- PIPE
-- STSH
+- GOOD
+- PACK
+- PAPE
 colour: 160
 fundCostMultiplier: 120
 id: 24
@@ -159,7 +159,7 @@ layout:
     - -1
     - 11
     - 8
-name: Sheet and Pipe Mill
+name: Paper Mill
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 5
@@ -169,182 +169,182 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/2.png
+      filename: industries/paper-mill/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/1.png
+      filename: industries/paper-mill/1.png
       left: -31
       top: -34
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/4.png
+      filename: industries/paper-mill/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/3.png
+      filename: industries/paper-mill/3.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/6.png
+      filename: industries/paper-mill/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/5.png
+      filename: industries/paper-mill/5.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/8.png
+      filename: industries/paper-mill/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/7.png
+      filename: industries/paper-mill/7.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/10.png
+      filename: industries/paper-mill/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/9.png
+      filename: industries/paper-mill/9.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/12.png
+      filename: industries/paper-mill/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/11.png
+      filename: industries/paper-mill/11.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/14.png
+      filename: industries/paper-mill/14.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/13.png
+      filename: industries/paper-mill/13.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/16.png
+      filename: industries/paper-mill/16.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/15.png
+      filename: industries/paper-mill/15.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/18.png
+      filename: industries/paper-mill/18.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/17.png
+      filename: industries/paper-mill/17.png
       left: -31
       top: -33
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/20.png
+      filename: industries/paper-mill/20.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/19.png
+      filename: industries/paper-mill/19.png
       left: -31
       top: 0
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/22.png
+      filename: industries/paper-mill/22.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/21.png
+      filename: industries/paper-mill/21.png
       left: -31
       top: 0
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/24.png
+      filename: industries/paper-mill/24.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/23.png
+      filename: industries/paper-mill/23.png
       left: -31
       top: -10
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/26.png
+      filename: industries/paper-mill/26.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/25.png
+      filename: industries/paper-mill/25.png
       left: -31
       top: 0
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/28.png
+      filename: industries/paper-mill/28.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheet-and-pipe-mill/27.png
+      filename: industries/paper-mill/27.png
       left: -31
       top: 0
 type: secondary

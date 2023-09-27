@@ -8,7 +8,10 @@ callbacks: |
       cargo iterator
   }
 
-  accept_cargo_types ctt:FOOD [] 1 =
+  accept_cargo_types ctt:FUEL [] 1 =
+  accept_cargo_types ctt:GOOD [] 1 =
+  accept_cargo_types ctt:PUBL [] 1 =
+  accept_cargo_types ctt:TUNG [] 1 =
 
 
   /*
@@ -42,30 +45,33 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- FOOD
+- FUEL
+- GOOD
+- PUBL
+- TUNG
 cargoProduction: []
 colour: 168
 fundCostMultiplier: 15
 id: 15
 layout:
 - - - 0
-name: General Store
+name: Fair
 placement: in-town
 probabilityInGame: 12
 probabilityMapGen: 24
-prospectChance: 75
+prospectChance: 0
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/general-store/2.png
+      filename: industries/fair/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/general-store/1.png
+      filename: industries/fair/1.png
       left: -31
       top: -18
 type: tertiary

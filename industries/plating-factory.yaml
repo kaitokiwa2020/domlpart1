@@ -105,12 +105,12 @@ cargoAcceptance:
 - ACID
 - ALUM
 - CU__
-- STEE
 - LEAD
+- STEE
 cargoProduction:
+- VPTS
 - ALLY
 - PIPE
-- VPTS
 colour: 194
 fundCostMultiplier: 120
 id: 3

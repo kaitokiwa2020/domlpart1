@@ -43,8 +43,7 @@ callbacks: |
   supply_requirement 8 =
 
   accept_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:POTA [] 20 =
-  prod_cargo_types ctt:SALT [] 15 =
+  prod_cargo_types ctt:KAOL [] 20 =
 
 
   /*
@@ -147,73 +146,72 @@ callbacks: |
 cargoAcceptance:
 - ENSP
 cargoProduction:
-- POTA
-- SALT
-colour: 125
-fundCostMultiplier: 232
-id: 22
+- KAOL
+colour: 169
+fundCostMultiplier: 180
+id: 26
 layout:
-- - - -1
-    - 3
+- - - 3
     - -1
     - 2
-  - - 0
-    - 8
     - 1
+  - - 0
+    - 6
     - 5
+    - 8
   - - 7
     - 4
     - -1
-    - 6
+    - 9
 - - - 3
     - -1
     - 2
   - - 0
-    - 8
-    - 1
-  - - 7
-    - -1
+    - 6
     - 5
-  - - 0
-    - 8
-    - 1
   - - 7
     - 4
-    - 6
-- - - 0
-    - 8
     - 1
+  - - 0
+    - 9
+    - 8
+  - - 7
+    - 6
+    - 5
+- - - 0
+    - 1
+    - 4
     - 3
     - -1
     - 2
   - - 7
-    - 6
+    - 8
     - 0
-    - 8
-    - 1
-    - 5
+    - 3
+    - -1
+    - 2
   - - -1
-    - -1
+    - 4
     - 7
-    - 4
     - 6
-    - -1
-- - - 0
-    - 8
-    - 1
-  - - 7
-    - 6
-    - 4
-  - - 0
-    - 8
-    - 1
-  - - 7
-    - -1
     - 5
+    - 9
+- - - 0
+    - 4
+    - 1
+  - - 7
+    - -1
+    - 8
   - - 3
     - -1
     - 2
-name: Potash Mine
+  - - 3
+    - -1
+    - 2
+  - - 6
+    - 5
+    - 9
+name: Kaolinite Pit
 placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 7
@@ -227,7 +225,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/1.png
+      filename: industries/kaolinite-pit/1.png
       left: -31
       top: -88
 - sprites:
@@ -238,7 +236,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/2.png
+      filename: industries/kaolinite-pit/2.png
       left: -31
       top: -88
 - sprites:
@@ -249,7 +247,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/3.png
+      filename: industries/kaolinite-pit/3.png
       left: -31
       top: -90
 - sprites:
@@ -260,7 +258,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/4.png
+      filename: industries/kaolinite-pit/4.png
       left: -31
       top: -74
 - sprites:
@@ -271,7 +269,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/5.png
+      filename: industries/kaolinite-pit/5.png
       left: -31
       top: -90
 - sprites:
@@ -282,7 +280,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/6.png
+      filename: industries/kaolinite-pit/6.png
       left: -31
       top: -90
 - sprites:
@@ -293,7 +291,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/7.png
+      filename: industries/kaolinite-pit/7.png
       left: -31
       top: -90
 - sprites:
@@ -304,7 +302,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/8.png
+      filename: industries/kaolinite-pit/8.png
       left: -31
       top: -90
 - sprites:
@@ -315,7 +313,18 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/9.png
+      filename: industries/kaolinite-pit/9.png
+      left: -31
+      top: -90
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 2022
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/kaolinite-pit/10.png
       left: -31
       top: -90
 type: primary

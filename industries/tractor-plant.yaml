@@ -104,10 +104,10 @@ callbacks: |+
 
 cargoAcceptance:
 - ALLY
+- POWR
 - PAIN
 - STEE
 - VPTS
-- POWR
 cargoProduction:
 - ENSP
 - FMSP

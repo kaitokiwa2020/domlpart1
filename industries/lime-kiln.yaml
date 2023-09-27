@@ -96,9 +96,13 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance: []
+cargoAcceptance:
+- FUEL
+- STON
 cargoProduction:
-- FMSP
+- NaOH
+- CMNT
+- FERT
 colour: 119
 fundCostMultiplier: 45
 id: 19

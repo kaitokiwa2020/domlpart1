@@ -21,8 +21,6 @@ callbacks: |
 
   accept_cargo_types ctt:SLAG [] 8 =
   prod_cargo_types ctt:CMNT [] 5 =
-  prod_cargo_types ctt:FMSP [] 3 =
-
 
   /*
    The following is a replication of what FIRS is doing for a secondary industry.
@@ -100,7 +98,6 @@ cargoAcceptance:
 - SLAG
 cargoProduction:
 - CMNT
-- FMSP
 colour: 19
 fundCostMultiplier: 100
 id: 25

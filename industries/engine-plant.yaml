@@ -19,10 +19,11 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:CSTI [] 4 =
-  accept_cargo_types ctt:ALUM [] 2 =
-  accept_cargo_types ctt:SAND [] 2 =
-  prod_cargo_types ctt:VENG [] 6 =
+  accept_cargo_types ctt:SCMT [] 2 =
+  accept_cargo_types ctt:COAL [] 2 =
+  accept_cargo_types ctt:IORE [] 2 =
+  accept_cargo_types ctt:STON [] 2 =
+  prod_cargo_types ctt:FUEL [] 1 =
 
 
   /*
